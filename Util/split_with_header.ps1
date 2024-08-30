@@ -1,11 +1,13 @@
-$Path = "./original.csv"
-$countPerFile = 3000000
+$SJIS = [Text.Encoding]::GetEncoding("Shift-JIS")
+#  -Encoding UTF8   or   -Encoding $SJIS
 
-$csv = Import-Csv $Path -Encoding UTF8
-$count_rows = Get-Content $Path | Measure-Object
+$j = 0; Get-Content original.csv -Encoding $SJIS -ReadCount 7000000 | % { $_ | Out-File "./temp_$j.csv" -Encoding $SJIS -Append; $j++ }
 
-for ($i = 0; $i -lt $count_rows.Count / $countPerFile; $i++) {
-    $a = $i * $countPerFile
-    $b = $i * $countPerFile + $countPerFile - 1
-    $csv[$a..$b] | Export-Csv -NoTypeInformation "./original_${i}.csv" -Encoding UTF8
+Copy-Item ./temp_0.csv ./original_0.csv
+
+for ($i = 1; $i -le $j; $i++) {
+    Get-Content -Path ./original_0.csv -TotalCount 1 -Encoding $SJIS | Out-File -FilePath "./original_${i}.csv" -Append -Encoding $SJIS
+    Get-Content -Path "./temp_${i}.csv" -Raw -Encoding $SJIS | Out-File -FilePath "./original_${i}.csv" -Append -Encoding $SJIS
 }
+
+Remove-Item ./temp_*.csv
