@@ -1,0 +1,409 @@
+データフロー名,エンティティ名,開始時刻,終了時刻,状態,upsert 数,挿入回数,エラー数,状態の詳細
+位置参照情報　街区レベル,,2024/8/30 午前11:41:08,2024/8/30 午前11:43:35,Failed,,,,upsert に失敗した行が多すぎるため、データフローの更新が取り消されました。エラーを確認し、データフローを編集して問題を解決してから、もう一度お試しください。(要求 ID: 0c4dcb82-7c60-4104-96be-83d5560ab9e9)。
+位置参照情報　街区レベル,街区22 0a_0,2024/8/30 午前11:41:20,2024/8/30 午前11:43:26,中止,0,0,556,
+
+
+
+
+テーブル名,行 ID,要求 URL,エラーの詳細
+街区22 0a_0,754d8230-3319-400d-bb9d-c889a4b65be9,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""界川一丁目"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 6,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106311.5"",
+  ""cr5b0__8"": ""-75991.2"",
+  ""cr5b0__9"": ""43.039230"",
+  ""cr5b0__10"": ""141.317377"",
+  ""cr5b0__11"": 1,
+  ""cr5b0__12"": 0,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 2,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106311.5 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106311.5 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""b341e35d-67bc-4b73-9216-d09fdd780f1f"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,5c6af7ca-a936-410d-b562-730101313b0f,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 238,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""e73e748f-b299-4f75-9cf8-83d57e6a3d25"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,c23e3b49-8af0-49dd-a143-c185aad1cfa6,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""南十一条西二十二丁目"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 3,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-105985.6"",
+  ""cr5b0__8"": ""-75405.3"",
+  ""cr5b0__9"": ""43.042222"",
+  ""cr5b0__10"": ""141.324523"",
+  ""cr5b0__11"": 1,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -105985.6 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -105985.6 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""c8935811-dbfd-4d74-b344-73be8032d750"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,0459d770-6afe-4c7c-a89b-d16bac066bc0,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 234,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""576b8687-bdde-4f17-bcf5-69a93f5a2fb4"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,4e9868ee-a395-4fe5-ab4b-b93425916042,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 242,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""bb1de3a5-69fc-461a-86b0-185ae6e34d09"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,78f87ddc-2818-4695-b705-6206c6debeb8,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 243,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""b77ef60c-93a3-4dd8-8aea-93aa052f5b48"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,55d82978-e9cc-408d-9a84-29c74a236f59,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 239,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""e1727ceb-fb89-4429-9ecf-2c2ad2a2204c"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,c4985f0e-3631-4b9f-9dfd-fe09896e09ab,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 251,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""e9de8edf-25e3-434c-bd20-1a36d373e1bf"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,117cd79a-824b-457e-b42e-8a3b3edfaff5,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 245,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""ac718a00-6eca-48ed-b195-6162532f182a"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,84bdefee-2614-4a08-b1ab-546fd9c62484,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 254,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""c4ff7bd1-5c37-43d5-9a7d-ae6254a1ac9c"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,d8ef8f4d-0aac-4ddb-b85d-07217f2af0d1,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 255,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""1cedc4a6-c52a-4979-b912-efa8d63e413c"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,ccb1ec73-2570-4caa-82bc-a69e6bb320bb,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 256,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""987a20a1-f588-4ead-84b2-00d7b882204f"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,641612c4-0d4c-42c9-a363-d71f54383b9b,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 257,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""b9c6b069-8095-4ad5-8f14-8c2767948fbd"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,127793e4-ce95-4adb-abc3-597398e4376f,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 246,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""9edf3a8b-bd7f-4e9e-a010-648db6ea7f89"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,51137062-a973-4862-8e30-c9b56af066bf,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""南十一条西二十二丁目"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 2,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-105947.8"",
+  ""cr5b0__8"": ""-75350.7"",
+  ""cr5b0__9"": ""43.042567"",
+  ""cr5b0__10"": ""141.325188"",
+  ""cr5b0__11"": 1,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -105947.8 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -105947.8 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""8556a675-51f9-4b3d-8cd9-ace1e1f9baf3"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,1fe097c3-7581-4f24-923a-7f7d23e0b7df,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 261,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""c3bc3325-02be-4c8b-b022-754513448848"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,a9b91086-70a1-401d-acd5-45fd36b75a29,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 259,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""c6f45de0-4015-4b1d-bd69-d8255087f2d5"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,39534084-2600-4695-b40f-6f992c10e9be,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 260,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""b61559b8-8dc6-4bed-9ad1-0e69f5f7fbe2"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,6d194bda-ee73-425a-9ea8-52fcdd7cb570,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 263,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""79942c7a-a57a-4483-ac11-032a56241be0"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,24b781a2-9661-4e91-bb45-04e41f9241e4,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 262,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""ffc99a75-e330-4257-aec3-28217b2d8e41"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,156757fb-5ae5-44e9-996a-15869ee76642,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 366,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""9dd3996e-0a35-4e64-8a24-b3dcd8f27116"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,6f6e3c1b-7a4b-4cba-8a9a-6b7b58454f9d,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 365,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""d8c09d53-d039-4e34-a205-f98d886d709c"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,c0615ca5-3fa4-4b22-9b7b-5c41acfb0502,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 368,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""a438b61f-8689-4540-8461-2aff03d26ee6"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,b54663ae-5796-48e5-8c13-31f08cf3794e,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 369,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""8b89c801-c7b0-49ef-82a1-a901a6f04c9f"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,a427b84d-3f66-4924-9ec8-ce77a9bf8bf6,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_isjs{
+  ""cr5b0__2"": ""札幌市中央区"",
+  ""cr5b0__3"": ""盤渓"",
+  ""cr5b0__4"": null,
+  ""cr5b0__5"": 367,
+  ""cr5b0__6"": 12,
+  ""cr5b0__7"": ""-106654.7"",
+  ""cr5b0__8"": ""-79601.4"",
+  ""cr5b0__9"": ""43.035771"",
+  ""cr5b0__10"": ""141.273125"",
+  ""cr5b0__11"": 0,
+  ""cr5b0__12"": 1,
+  ""cr5b0__13"": 0,
+  ""cr5b0__14"": 0,
+  ""cr5b0_column1"": ""北海道""
+}","{""message"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsErrorCode"":""0x80044330"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044330&client=platform"",""InnerErrorMessage"":""A validation error occurred for cr5b0_isj.cr5b0__7. The value -106654.7 of type System.Double is outside the valid range(0 to 1000000000)."",""cdsRequestId"":""37e7a818-4cae-4776-ab58-785a3b4acd00"",""cdsRequestUtcTime"":""8/30/2024 2:43:21 AM""}"
+街区22 0a_0,,,Job abort because too many CDS failures
