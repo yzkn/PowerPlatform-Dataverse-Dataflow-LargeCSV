@@ -1,0 +1,32 @@
+データフロー名,エンティティ名,開始時刻,終了時刻,状態,upsert 数,挿入回数,エラー数,状態の詳細
+住所jp,,2024/8/31 午前9:09:48,2024/8/31 午前9:24:44,Failed,,,,データフローの更新が完了しましたが、一部の行で upsert に失敗しました。エラーを確認し、データフローを編集して問題を解決してから、もう一度お試しください。(要求 ID: d9f52e32-4af2-44ab-a7aa-92d787fb45d2)。
+住所jp,zenkoku,2024/8/31 午前9:09:59,2024/8/31 午前9:24:33,失敗,0,150135,1,
+
+
+
+
+テーブル名,行 ID,要求 URL,エラーの詳細
+zenkoku,e1670fdd-c7f0-417c-8589-981977bdee5c,"https://org6c7d8113.crm7.dynamics.com/api/data/v9.1/cr5b0_zenkokus{
+  ""cr5b0__2"": ""0"",
+  ""cr5b0__3"": ""0"",
+  ""cr5b0__4"": ""北海道"",
+  ""cr5b0__5"": ""ホッカイドウ"",
+  ""cr5b0__6"": ""標津郡中標津町"",
+  ""cr5b0__7"": ""シベツグンナカシベツチョウ"",
+  ""cr5b0__8"": ""俣落"",
+  ""cr5b0__9"": ""マタオチ"",
+  ""cr5b0__10"": null,
+  ""cr5b0__11"": null,
+  ""cr5b0__12"": null,
+  ""cr5b0__13"": null,
+  ""cr5b0__14"": ""（以下を除く　１６２９－１、１６５３－３、１６８４－５、１８８６－２、１８９３、１８９６－２、１８９６－３、１９０６－８、１９３２－２、１９３６、１９３６－２、１９５１－２、１９５６－２、１９６７－２、１９８０－２、１９９７－３、２０００－２、２０００－８、２００３、２０１５－４、２０２３－２、２０３８－２、２２５３－２、２２５３－５、２２５３－２１、２２５３－２４、２２５３－３５、２２５３－６３）"",
+  ""cr5b0__15"": null,
+  ""cr5b0__16"": null,
+  ""cr5b0__17"": null,
+  ""cr5b0_cd"": ""86127300"",
+  ""cr5b0_cd_2"": ""1"",
+  ""cr5b0_cd_3"": ""1692"",
+  ""cr5b0_cd_4"": ""16920134"",
+  ""cr5b0_cd_5"": null,
+  ""cr5b0_column5"": ""086-1273""
+}","{""message"":""A validation error occurred.  The length of the 'cr5b0__14' attribute of the 'cr5b0_zenkoku' entity exceeded the maximum allowed length of '100'."",""cdsErrorCode"":""0x80044331"",""HelpLink"":""http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80044331&client=platform"",""InnerErrorMessage"":""A validation error occurred.  The length of the 'cr5b0__14' attribute of the 'cr5b0_zenkoku' entity exceeded the maximum allowed length of '100'."",""cdsRequestId"":""1c8bbf7e-fd51-45f5-809c-bf03c33d1722"",""cdsRequestUtcTime"":""8/31/2024 12:11:04 AM""}"
