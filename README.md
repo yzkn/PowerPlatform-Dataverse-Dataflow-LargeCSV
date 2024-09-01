@@ -74,7 +74,7 @@
 
 - [OneDrive 同期アプリのアップロードまたはダウンロードの速度を変更する](https://support.microsoft.com/ja-jp/office/onedrive-%E5%90%8C%E6%9C%9F%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%BE%E3%81%9F%E3%81%AF%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AE%E9%80%9F%E5%BA%A6%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B-71cc69da-2371-4981-8cc8-b4558bdda56e)
 
-XRMToolBox の Bulk Data Updater による削除の場合、事前の Fetch が約 3 msec / record 、削除が約 70 msec / record （以下の表には後者のみ記載）。
+XRMToolBox の Bulk Data Updater による削除の場合、事前の Fetch が約 5 msec / record 、削除が約 70 msec / record （以下の表には後者のみ記載）。
 
 ### 試用環境（開発者環境）
 
